@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* These lines are for the header of the site */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,6 +51,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/* This is to situate the formatting of the page */
 
 .hero {
     height: 800px;
@@ -102,6 +106,8 @@ p {
     max-width: 150px;
 }
 
+/* This is condensed semantic lines for the boxes of information */
+
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +126,8 @@ p {
     font-size: 36px;
 }
 
+/* This is for the footer of the page */
+
 .footer {
     padding: 30px;
     clear: both;
@@ -131,6 +139,8 @@ p {
     font-size: 20px;
 }
 
+/* Media Query for tablets */
+
 @media screen and (max-width: 1030px) {
 .header, .header div {
 background-color: skyblue;
@@ -140,12 +150,25 @@ a {
 }
 }
 
-@media screen and (max-width: 840px) {
+/* Media Query for large smartphones */
+
+@media screen and (max-width: 768px) {
+.header, .header div {
+background-color: skyblue;
+}
+a {
+    font-size: 12px;
+}
+}
+    
+/* Media Query for small smartphones */
+
+@media screen and (max-width: 576px) {
     .header, .header div {
     background-color: skyblue;
     }
     a {
-        font-size: 10px;
+        font-size: 8px;
     }
     }
-    
+        

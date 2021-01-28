@@ -71,6 +71,7 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
+    padding-bottom: 5px;
 }
 
 .content {
@@ -141,10 +142,7 @@ p {
 
 /* Media Query for tablets */
 
-@media screen and (max-width: 1030px) {
-.header, .header div {
-background-color: skyblue;
-}
+@media screen and (max-width: 992px) {
 a {
     font-size: 15px;
 }
@@ -153,9 +151,6 @@ a {
 /* Media Query for large smartphones */
 
 @media screen and (max-width: 768px) {
-.header, .header div {
-background-color: skyblue;
-}
 a {
     font-size: 12px;
 }
@@ -164,9 +159,6 @@ a {
 /* Media Query for small smartphones */
 
 @media screen and (max-width: 576px) {
-    .header, .header div {
-    background-color: skyblue;
-    }
     a {
         font-size: 8px;
     }

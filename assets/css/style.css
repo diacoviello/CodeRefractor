@@ -50,6 +50,7 @@ a {
 
 p {
     font-size: 16px;
+    line-height: 1.5;
 }
 
 /* This is to situate the formatting of the page */
@@ -78,6 +79,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 .benefits {
@@ -91,19 +93,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3,  .benefit-brand h3, .benefit-cost h3 {
+.benefit-lead h3 {
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit-lead img {
     display: block;
-    margin: 10px auto;
+    margin: auto;
     max-width: 150px;
 }
 
@@ -118,7 +121,7 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .social-media-marketing img,  .online-reputation-management img{
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img{
     max-height: 200px;
 }
 
